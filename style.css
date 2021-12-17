@@ -1,21 +1,27 @@
 * {
     box-sizing: border-box;
   }
+body {
+        overflow-y: hidden;
+    }
     html {
         scroll-behavior: smooth;
     }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
     .latarbelakang {
         background-image: url(assets/hero-bg.svg);
         height: 650px;
-    }
+    }}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
     .text1 {
       color: white;
       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
+    }}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
     .latarbelakang2 {
         background-color: white;
         height: 1800px;
-    }
+    }}
     .preloader {
         position: fixed;
         top: 0;
@@ -32,19 +38,22 @@
         transform: translate(-50%,-50%);
         font: 14px arial;
     }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
     .page1 {
         padding: 250px;
-    }
+    }}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
     .tengah {
         float:left;
         padding: 100px;
         width: 950px;
-    }
+    }}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
     .kanan {
         float: right;
         padding: 100px;
         width: 950px;
-    }
+    }}
     .about-section {
 position: relative;
 z-index: 1; }
